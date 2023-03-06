@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="mobileNav">
+            <ul>
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT ME</a>
+                </li>
+                <li>
+                    <a href="#">SKILL</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>  
+        </nav>
+        
+        <nav class="desktopNav">
+            <ul>
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT ME</a>
+                </li>
+                <li>
+                    <a href="#">SKILL</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="brandName">
+            <h2>forjos</h2>
+        </div>
+        
+        <div id="menu-bar" class="hamburger">
+            <div class="hamburger-top"></div>
+            <div class="hamburger-middle"></div>
+            <div class="hamburger-bottom"></div>      
+        </div>
+    </header>
+    
+    <section>
+        <div class="hero">
+            <h1>I'm Josiah Yisa</h1>
+            <p>A frontend developer</p>
+            <img src="imgs/hero.jpg" alt="img">
+        </div>
+    </section>
+    
+    <section class="about">
+        <h2>About Me</h2>
+        
+    </section>
+    
+    <section class="mySkills">
+        <div>
+            <img src="imgs/js.png" alt="lol">
+        </div>
+        <div>
+            <img src="imgs/redux.png" alt="lol">
+        </div>
+        <div>
+            <img src="imgs/react.png" alt="lol">
+        </div>
+        <div>
+            <img src="imgs/angular.png" alt="lol">
+        </div>
+        <div>
+            <img src="imgs/ember.png" alt="lol">
+        </div>
+        <div>
+            <img src="imgs/vue.png" alt="lol">
+        </div>
+    </section>
+    
+    <section class="contact">
+        
+    </section>
+    
+    <footer>
+        <nav class="footerNav">
+            
+        </nav>
+    </footer>
+    
+    
+    <script>
+        const bar = document.getElementById('menu-bar')
+        const nav = document.getElementById('menu')
+        
+        bar.addEventListener('click', () => {
+            bar.classList.toggle('open')
+        })   
+    </script>
+</body>
+</html>
